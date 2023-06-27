@@ -1,0 +1,19 @@
+  
+  /* The Modal (background) */
+  .modal {
+    width: 400px;
+    height: 200px;
+    background-color: pink;
+    overflow: auto;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
